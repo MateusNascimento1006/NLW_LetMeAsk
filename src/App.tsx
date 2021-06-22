@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <AuthContextProvider>
         <Route path="/" exact component={Home} />
-        <Route path="/rooms/new" component={NewRoom} />
+        <Route path="/rooms3/new" component={NewRoom} />
       </AuthContextProvider>
     </BrowserRouter>
 
